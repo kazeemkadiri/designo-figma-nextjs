@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer{
+    .project-card{
+        &:hover {
+            .description{
+                background-color: var(--site-peach) !important;
+            }
+
+            div h2, div h3{
+                color: white !important;
+            }
+        }
+    }
+}
